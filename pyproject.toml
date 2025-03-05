@@ -1,7 +1,11 @@
+
 [project]
 name = "python-template"
 version = "0.1.0"
-description = ""
+description = "Telegram bot for song searches"
 authors = ["Your Name <you@example.com>"]
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "python-telegram-bot==13.7",
+    "google-api-python-client==2.97.0"
+]
